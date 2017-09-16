@@ -52,13 +52,18 @@ ro.qualcomm.bt.hci_transport=smd
 qcom.bluetooth.soc=smd
 
 #Camera
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp,net.sourceforge.opencamera
 persist.camera.is_type=1
 persist.camera.gyro.android=1
 persist.camera.time.monotonic=1
 media.camera.ts.monotonic=1
 camera.display.umax=1920x1080
 camera.display.lmax=1280x720
+media.camera.ts.monotonic=0
+persist.camera.imglib.cac3=2
+persist.camera.gyro.disable=0
+camera.lowpower.record.enable=1
+persist.camera.is_type=1
 persist.ts.postmakeup=true
 persist.ts.rtmakeup=true
 persist.camera.HAL3.enabled=1
@@ -106,6 +111,9 @@ mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 vidc.enc.narrow.searchrange=1
+mm.enable.qcom_parser=17825791
+media.msm8956hw=0
+media.aac_51_output_enabled=true
 drm.service.enabled=true
 vidc.disable.split.mode=1
 
